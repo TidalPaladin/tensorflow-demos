@@ -16,5 +16,5 @@ underlying operations.
 
 ### Contents
 
-* [Imporing Images](./ImageDataGenerator.ipynb)
+* [Importing Images](./ImageDataGenerator.ipynb)
 * [Model Subclassing](./ModelSubclassing.ipynb)
