@@ -1,0 +1,5 @@
+#!/bin/sh
+file=$(readlink -f "$1")
+dir=$(dirname "$file")
+base=dirname "${file%.*}"
+jupyter nbconvert --execute --output="$dir"/"$base"_out.ipynb
