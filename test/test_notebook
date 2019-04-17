@@ -1,5 +1,11 @@
 #!/bin/sh
+#
+# This script executes and stores the output of a jupyter notebook
+#
+
 file=$(readlink -f "$1")
 dir=$(dirname "$file")
 base=dirname "${file%.*}"
-jupyter nbconvert --execute --output="$dir"/"$base"_out.ipynb
+output="$dir"/"$base"_out.ipynb
+
+jupyter nbconvert --execute --output="$output"
