@@ -26,3 +26,5 @@ underlying operations.
 	rapidly import an image dataset in a few lines of code.
 * [Model Subclassing](./ModelSubclassing.ipynb) - How to build complex
 	models efficiently through code reuse and modularity.
+* [gpufix Subclassing](./gpufix) - Bash script to resolve
+	`CUDA_ERROR_UNKNOWN` error after machine wakes from sleep.

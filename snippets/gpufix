@@ -1,0 +1,10 @@
+#!/bin/sh
+# Fixes problems with CUDA on linux after machine wakes from sleep
+modprobe -r nvidia_uvm
+modprobe -r nvidia_drm
+modprobe -r nvidia_modeset
+modprobe -r nvidia
+modprobe nvidia
+modprobe nvidia_modeset
+modprobe nvidia_drm
+modprobe nvidia_uvm
