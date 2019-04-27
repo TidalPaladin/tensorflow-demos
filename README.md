@@ -11,3 +11,10 @@ progress.
 * [Keras](./keras/)
 	* [Importing Images](./keras/ImageDataGenerator.ipynb)
 	* [Model Subclassing](./keras/ModelSubclassing.ipynb)
+
+## Todo
+
+* Implement an attention layer (encoder/decoder and self-attention)
+* Demonstrate TFRecord generation on a more complex dataset (stock
+	market)
+* Try out Tensorboard's hyperparameter tweaking features
